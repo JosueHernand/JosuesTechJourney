@@ -44,6 +44,11 @@ main {
   display: flex;
 }
 
+.Me {
+    display: block;
+    margin-left: 0px;
+}
+
 aside {
   display: flex;
   align-items: center;
@@ -52,29 +57,32 @@ aside {
 
 aside h2 {
     flex: 1;
-    font-size: 30px;
-    margin-right: 15px;
+    font-size: 35px;
+    margin-left: 100px;
 }
 
 aside p {
     flex: 2;
+    padding-right: 40px;
+    font-size: 15px;
 }
 
 main div {
     font-size: 30px;
 }
 
-.line-margin {
+.About-Me h2{
     position: relative;
     padding-left: 50px;
 }
 
-.line-margin::before {
+.About-Me h2::before {
     content: "";
     position: absolute;
     top: 0;
     bottom: 0;
-    left: 10px;
-    width: 6px;
+    height: 90px;
+    right: 35%;
+    width: 5px;
     background-color: rgb(74, 74, 74);
 }
