@@ -40,10 +40,6 @@ a {
     text-decoration: underline;
 }
 
-main {
-  display: flex;
-}
-
 .Me {
     display: block;
     margin-left: 0px;
@@ -67,16 +63,72 @@ aside p {
     font-size: 15px;
 }
 
-main div {
-    font-size: 30px;
-}
-
 .About-Me h2{
     position: relative;
     padding-left: 50px;
 }
 
-.About-Me h2::before {
+.About-Me h2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 90px;
+    right: 35%;
+    width: 5px;
+    background-color: rgb(74, 74, 74);
+}
+
+  section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  section h2 {
+      flex: 1;
+      font-size: 35px;
+      margin-left: 100px;
+  }
+  
+  section p {
+      flex: 2;
+      padding-right: 40px;
+      font-size: 15px;
+  }
+  
+  .Work h2{
+      position: relative;
+      padding-left: 50px;
+  }
+  
+  .Work h2::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      height: 90px;
+      right: 35%;
+      width: 5px;
+      background-color: rgb(74, 74, 74);
+  }
+
+  footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(74, 74, 74);
+    color: rgba(0, 255, 255, 0.682);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .Contact h2{
+    position: relative;
+    padding-left: 50px;
+}
+
+.Contact h2::after {
     content: "";
     position: absolute;
     top: 0;
