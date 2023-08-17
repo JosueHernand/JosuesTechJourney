@@ -45,10 +45,10 @@ a {
     text-decoration: underline;
 }
 
-.positioned-image {
-    position: absolute; /* Set the positioning to absolute */
-    top: 15%; /* Adjust the top position */
-    left: 200px; /* Adjust the left position */
+.avatar {
+    position: absolute;
+    top: 15%;
+    left: 200px;
     width: 60px;
   }
   
