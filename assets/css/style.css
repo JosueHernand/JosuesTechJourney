@@ -40,6 +40,15 @@ a {
     text-decoration: underline;
 }
 
+.wood {
+    height: 130px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/wood.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 .Me {
     display: block;
     margin-left: 0px;
@@ -90,12 +99,63 @@ aside p {
       font-size: 35px;
       margin-left: 100px;
   }
-  
-  section p {
-      flex: 2;
-      padding-right: 40px;
-      font-size: 15px;
+
+  .pictures {
+    flex: 2;
+    padding-right: 20px;
+    font-size: 15px;
+
   }
+  
+  .example {
+      background-image: url("../images/expl.jpg");
+      height: 425px;
+      width: 100%;
+      margin-bottom: 90px;
+      margin-right: 50px;
+      background-size: cover;
+      background-position: center;
+  }
+
+  .coming {
+    background-image: url("../images/coming.jpg");
+    height: 100px;
+    width: auto;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.images {
+    background-image: url("../images/images.jpg");    
+    height: 100px;
+    width: auto;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.soon {
+    background-image: url("../images/soon.jpg");
+    height: 100px;
+    width: auto;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.tech {
+    background-image: url("../images/tech.jpg");
+    height: 100px;
+    width: auto;
+    margin-bottom: 90px;
+    margin-right: 20px;
+    background-size: cover;
+    background-position: center;
+}
   
   .Work h2{
       position: relative;
@@ -118,23 +178,27 @@ aside p {
     align-items: flex-end;
     background-color: rgb(74, 74, 74);
     color: rgba(0, 255, 255, 0.682);
-    position: fixed;
-    bottom: 0;
+    bottom: -35px;
     width: 100%;
   }
 
-  .Contact h2{
+footer p {
+    font-size: 18px;
+}
+
+.Contact h2{
     position: relative;
     padding-left: 50px;
 }
 
-.Contact h2::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    height: 90px;
-    right: 35%;
-    width: 5px;
-    background-color: rgb(74, 74, 74);
+.git {
+    padding-left: 220px;
+}
+
+.email {
+    padding-left: 180px;
+}
+
+.number {
+    padding-left: 100px;
 }
