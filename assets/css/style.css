@@ -45,18 +45,22 @@ a {
     text-decoration: underline;
 }
 
-.wood {
-    height: 130px;
+.positioned-image {
+    position: absolute; /* Set the positioning to absolute */
+    top: 15%; /* Adjust the top position */
+    left: 200px; /* Adjust the left position */
+    width: 60px;
+  }
+  
+
+.wood img{
+    height: 115px;
     width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/wood.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 .Me {
     display: block;
-    margin-left: 0px;
+    margin-left: 50px;
 }
 
 aside {
@@ -67,7 +71,7 @@ aside {
 
 aside h2 {
     flex: 1;
-    font-size: 35px;
+    font-size: 40px;
     margin-left: 100px;
 }
 
@@ -101,7 +105,7 @@ aside p {
   
   section h2 {
       flex: 1;
-      font-size: 35px;
+      font-size: 40px;
       margin-left: 100px;
   }
 
@@ -170,14 +174,15 @@ aside p {
   .Work h2{
       position: relative;
       padding-left: 50px;
+      height: 700px;
   }
   
   .Work h2::after {
       content: "";
       position: absolute;
-      top: -370px;
+      top: -30px;
       bottom: 0;
-      height: 770px;
+      height: 760px;
       right: 35%;
       width: 5px;
       background-color: rgb(74, 74, 74);
