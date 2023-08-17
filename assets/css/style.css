@@ -104,19 +104,21 @@ aside p {
     flex: 2;
     padding-right: 20px;
     font-size: 15px;
-
   }
   
   .example {
-      background-image: url("../images/expl.jpg");
+      background-image: url("../images/sample5.jpg");
       height: 425px;
       width: 100%;
       margin-bottom: 90px;
       margin-right: 50px;
       background-size: cover;
       background-position: center;
+      border: 2px solid rgba(0, 255, 255, 0.682);
+      padding: 0;
+      border-width: 5px;
   }
-
+  
   .picture-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -126,6 +128,9 @@ aside p {
   .picture-grid img {
     width: 100%;
     height: 150px;
+    border: 2px solid rgba(0, 255, 255, 0.682);
+    padding: 0;
+    border-width: 5px;
   }
   
   .Work h2{
@@ -155,6 +160,7 @@ aside p {
 
 footer p {
     font-size: 18px;
+    text-decoration: underline;
 }
 
 .Contact h2{
@@ -163,13 +169,13 @@ footer p {
 }
 
 .git {
-    padding-left: 220px;
+    padding-left: 250px;
 }
 
 .email {
-    padding-left: 180px;
+    padding-left: 200px;
 }
 
 .number {
-    padding-left: 100px;
+    padding-left: 150px;
 }
