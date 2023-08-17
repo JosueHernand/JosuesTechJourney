@@ -50,10 +50,9 @@ a {
     top: 15%;
     left: 200px;
     width: 60px;
-  }
+}
   
-
-.wood img{
+.banner img{
     height: 115px;
     width: 100%;
 }
@@ -97,38 +96,55 @@ aside p {
     background-color: rgb(74, 74, 74);
 }
 
-  section {
+section {
     display: flex;
     align-items: center;
     margin-bottom: 30px;
-  }
+}
   
-  section h2 {
-      flex: 1;
-      font-size: 40px;
-      margin-left: 100px;
-  }
+section h2 {
+    flex: 1;
+    font-size: 40px;
+    margin-left: 100px;
+}
 
-  .pictures {
+.pictures {
     flex: 2;
     padding-right: 20px;
     font-size: 15px;
-  }
-  
-  .example img {
-      height: 425px;
-      width: 900px;
-      border: 2px solid rgba(0, 255, 255, 0.682);
-      padding: 0;
-      border-width: 5px;
-  }
+}
 
-  .example img:hover {
+.Work h2{
+    position: relative;
+    padding-left: 50px;
+    height: 700px;
+}
+  
+.Work h2::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    height: 760px;
+    right: 35%;
+    width: 5px;
+    background-color: rgb(74, 74, 74);
+}
+
+.horiseon img {
+    height: 425px;
+    width: 900px;
+    border: 2px solid rgba(0, 255, 255, 0.682);
+    padding: 0;
+    border-width: 5px;
+}
+
+.horiseon img:hover {
     background-color: brown;
 
 }
 
-  .example p {
+.horiseon p {
     position: absolute;
     bottom: -90px;
     left: 590px;
@@ -138,28 +154,28 @@ aside p {
     padding: 5px;
     font-size: 30px;
     font-weight: bolder;
-  }
+}
   
-  .picture-grid {
+.picture-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
 
-  }
+}
   
-  .picture-grid img {
+.picture-grid img {
     width: 100%;
     height: 150px;
     border: 2px solid rgba(0, 255, 255, 0.682);
     padding: 0;
     border-width: 5px;
-  }
+}
 
-  .images {
+.coming-soon {
     position: relative;
-  }
+}
 
-  .picture-grid p {
+.picture-grid p {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -169,33 +185,16 @@ aside p {
     padding: 5px;
     font-size: 16px;
     font-weight: bolder;
-  }
+}
 
-  .Work h2{
-      position: relative;
-      padding-left: 50px;
-      height: 700px;
-  }
-  
-  .Work h2::after {
-      content: "";
-      position: absolute;
-      top: -30px;
-      bottom: 0;
-      height: 760px;
-      right: 35%;
-      width: 5px;
-      background-color: rgb(74, 74, 74);
-  }
-
-  footer {
+footer {
     display: flex;
     align-items: flex-end;
     background-color: rgb(74, 74, 74);
     color: rgba(0, 255, 255, 0.682);
     bottom: -35px;
     width: 100%;
-  }
+}
 
 footer p {
     font-size: 18px;
