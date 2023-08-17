@@ -33,6 +33,11 @@ header div ul {
 header div ul li {
     display: inline-block;
     margin-left: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: white;
 }
 
 a {
@@ -106,23 +111,36 @@ aside p {
     font-size: 15px;
   }
   
-  .example {
-      background-image: url("../images/sample5.jpg");
+  .example img {
       height: 425px;
-      width: 100%;
-      margin-bottom: 90px;
-      margin-right: 50px;
-      background-size: cover;
-      background-position: center;
+      width: 900px;
       border: 2px solid rgba(0, 255, 255, 0.682);
       padding: 0;
       border-width: 5px;
+  }
+
+  .example img:hover {
+    background-color: brown;
+
+}
+
+  .example p {
+    position: absolute;
+    bottom: -90px;
+    left: 590px;
+    width: 130px;
+    background-color: rgba(0, 255, 255, 0.682);
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
   }
   
   .picture-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+
   }
   
   .picture-grid img {
@@ -132,7 +150,23 @@ aside p {
     padding: 0;
     border-width: 5px;
   }
-  
+
+  .images {
+    position: relative;
+  }
+
+  .picture-grid p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: -50px;
+    background-color: rgba(0, 255, 255, 0.682);
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+  }
+
   .Work h2{
       position: relative;
       padding-left: 50px;
@@ -141,9 +175,9 @@ aside p {
   .Work h2::after {
       content: "";
       position: absolute;
-      top: -400px;
+      top: -370px;
       bottom: 0;
-      height: 835px;
+      height: 770px;
       right: 35%;
       width: 5px;
       background-color: rgb(74, 74, 74);
@@ -161,6 +195,7 @@ aside p {
 footer p {
     font-size: 18px;
     text-decoration: underline;
+    font-weight: bold;
 }
 
 .Contact h2{
@@ -170,6 +205,10 @@ footer p {
 
 .git {
     padding-left: 250px;
+}
+
+.git a:hover {
+    color: white;
 }
 
 .email {
