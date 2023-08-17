@@ -117,45 +117,16 @@ aside p {
       background-position: center;
   }
 
-  .coming {
-    background-image: url("../images/coming.jpg");
-    height: 100px;
-    width: auto;
-    margin-bottom: 90px;
-    margin-right: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-.images {
-    background-image: url("../images/images.jpg");    
-    height: 100px;
-    width: auto;
-    margin-bottom: 90px;
-    margin-right: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-.soon {
-    background-image: url("../images/soon.jpg");
-    height: 100px;
-    width: auto;
-    margin-bottom: 90px;
-    margin-right: 20px;
-    background-size: cover;
-    background-position: center;
-}
-
-.tech {
-    background-image: url("../images/tech.jpg");
-    height: 100px;
-    width: auto;
-    margin-bottom: 90px;
-    margin-right: 20px;
-    background-size: cover;
-    background-position: center;
-}
+  .picture-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+  
+  .picture-grid img {
+    width: 100%;
+    height: 150px;
+  }
   
   .Work h2{
       position: relative;
@@ -165,9 +136,9 @@ aside p {
   .Work h2::after {
       content: "";
       position: absolute;
-      top: 0;
+      top: -400px;
       bottom: 0;
-      height: 90px;
+      height: 835px;
       right: 35%;
       width: 5px;
       background-color: rgb(74, 74, 74);
