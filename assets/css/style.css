@@ -222,3 +222,222 @@ footer p {
 .number {
     padding-left: 150px;
 }
+
+@media (max-width: 992px) {
+    header {
+      padding: 10px 20px;
+      width: 134%
+    }
+
+    .banner img {
+        width:138%;
+    }
+  
+    header h1 {
+      font-size: 45px;
+      padding-left: 30px;
+    }
+  
+    .avatar {
+      top: 16%;
+      left: 168px;
+      width: 60px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon p {
+        bottom: -10px;
+        left: 428px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+  
+    .Work h2::after {
+      top: -40px;
+      height: 800px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 900px;
+    }
+
+    footer {
+        width: 138%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+ }
+
+ @media (max-width: 768px) {
+    header {
+      padding: 10px 20px;
+      width: 146%
+    }
+
+    .banner img {
+        width:151%;
+    }
+  
+    header h1 {
+      font-size: 45px;
+      padding-left: 30px;
+    }
+  
+    .avatar {
+      top: 22%;
+      left: 168px;
+      width: 60px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon p {
+        bottom: -285px;
+        left: 250px;
+    }
+
+    section h2 {
+        margin-left: 40px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+  
+    .Work h2::after {
+      top: -40px;
+      height: 800px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 900px;
+    }
+
+    footer {
+        width: 151%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+ }
+
+ @media (max-width: 576px) {
+    header {
+      padding: 10px 20px;
+      width: 93%
+    }
+
+    .banner img {
+        width:100%;
+    }
+  
+    header h1 {
+      font-size: 15px;
+      padding-left: 5px;
+    }
+
+    header div {
+        font-size: 10px;
+    }
+  
+    .avatar {
+      top: 15%;
+      left: 16px;
+      width: 45px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+        font-size: 25px;
+    }
+
+    .Me {
+        margin-left: 35px;
+    }
+
+    aside p {
+        font-size: 10px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon img {
+        height: 255px;
+        width: 375px;
+    }
+
+    .horiseon p {
+        bottom: -228px;
+        left: 410px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+
+    .Work h2 {
+        padding-left: 5px;
+    }
+
+    .Work h2::after {
+      top: -40px;
+      height: 800px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 375px;
+    }
+
+    section h2{
+        font-size: 25px;
+    }
+
+    footer {
+        width: 100%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+ }
