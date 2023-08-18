@@ -356,11 +356,11 @@ footer p {
  @media (max-width: 576px) {
     header {
       padding: 10px 20px;
-      width: 93%
+      width: 128%
     }
 
     .banner img {
-        width:100%;
+        width:135%;
     }
   
     header h1 {
@@ -397,13 +397,13 @@ footer p {
     }
 
     .horiseon img {
-        height: 255px;
-        width: 375px;
+        height: 395px;
+        width: 660px;
     }
 
     .horiseon p {
-        bottom: -228px;
-        left: 410px;
+        bottom: -102px;
+        left: 106px;
     }
   
     aside h2 {
@@ -416,8 +416,8 @@ footer p {
     }
 
     .Work h2::after {
-      top: -40px;
-      height: 800px;
+      top: 35px;
+      height: 688px;
     }
   
     .Contact h2::after {
@@ -426,7 +426,7 @@ footer p {
     }
 
     .picture-grid {
-        width: 375px;
+        width: 660px;
     }
 
     section h2{
@@ -434,7 +434,7 @@ footer p {
     }
 
     footer {
-        width: 100%;
+        width: 135%;
     }
 
     footer p {
