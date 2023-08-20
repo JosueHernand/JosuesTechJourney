@@ -4,6 +4,7 @@
 
 I built this project so I can get familiar using both HTML and CSS from scratch.
 I learned a lot of new things while building this site from learning how to make clickable images to using media quaries, still need more practice on that.
+https://josuehernand.github.io/JosuesTechJourney/
 
 ## Installation
 
