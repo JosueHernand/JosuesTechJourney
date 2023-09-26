@@ -1,0 +1,458 @@
+* body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+header {
+    padding: 5px 5px 5px 0px;
+    background-color: rgb(74, 74, 74);
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 35px;
+    background-color: rgba(0, 255, 255, 0.682);
+    color: rgb(74, 74, 74);
+    padding-left: 20px;
+}
+
+header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+header div ul {
+    list-style-type: none;
+}
+
+header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+    font-weight: bold;
+}
+
+.header a:hover {
+    color: white;
+}
+
+a {
+    color: rgba(0, 255, 255, 0.682);
+    text-decoration: underline;
+}
+
+.avatar {
+    position: absolute;
+    top: 13.5%;
+    left: 200px;
+    width: 60px;
+}
+  
+.banner img{
+    height: 115px;
+    width: 100%;
+}
+
+.Me {
+    display: block;
+    margin-left: 50px;
+}
+
+aside {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+aside h2 {
+    flex: 1;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+aside p {
+    flex: 2;
+    padding-right: 40px;
+    font-size: 15px;
+}
+
+.About-Me h2{
+    position: relative;
+    padding-left: 50px;
+}
+
+.About-Me h2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 90px;
+    right: 35%;
+    width: 5px;
+    background-color: rgb(74, 74, 74);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+  
+section h2 {
+    flex: 1;
+    font-size: 40px;
+    margin-left: 100px;
+}
+
+.pictures {
+    flex: 2;
+    padding-right: 20px;
+    font-size: 15px;
+}
+
+.Work h2{
+    position: relative;
+    padding-left: 50px;
+    height: 700px;
+}
+  
+.Work h2::after {
+    content: "";
+    position: absolute;
+    top: -30px;
+    bottom: 0;
+    height: 760px;
+    right: 35%;
+    width: 5px;
+    background-color: rgb(74, 74, 74);
+}
+
+.horiseon img {
+    height: 425px;
+    width: 900px;
+    border: 2px solid rgba(0, 255, 255, 0.682);
+    padding: 0;
+    border-width: 5px;
+}
+
+.horiseon img:hover {
+    background-color: brown;
+
+}
+
+.horiseon p {
+    position: absolute;
+    bottom: -9px;
+    left: 590px;
+    width: 130px;
+    background-color: rgba(0, 255, 255, 0.682);
+    color: black;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+  
+.picture-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+}
+  
+.picture-grid img {
+    width: 100%;
+    height: 150px;
+    border: 2px solid rgba(0, 255, 255, 0.682);
+    padding: 0;
+    border-width: 5px;
+}
+
+.coming-soon {
+    position: relative;
+}
+
+.picture-grid p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: -50px;
+    background-color: rgba(0, 255, 255, 0.682);
+    color: black;
+    padding: 5px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    background-color: rgb(74, 74, 74);
+    color: rgba(0, 255, 255, 0.682);
+    bottom: -35px;
+    width: 100%;
+}
+
+footer p {
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.Contact h2{
+    position: relative;
+    padding-left: 50px;
+}
+
+.git {
+    padding-left: 250px;
+}
+
+.git a:hover {
+    color: white;
+}
+
+.email {
+    padding-left: 200px;
+}
+
+.number {
+    padding-left: 150px;
+}
+
+@media (max-width: 992px) {
+    header {
+      padding: 10px 20px;
+      width: 134%
+    }
+
+    .banner img {
+        width:138%;
+    }
+  
+    header h1 {
+      font-size: 45px;
+      padding-left: 30px;
+    }
+  
+    .avatar {
+      top: 16%;
+      left: 168px;
+      width: 60px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon p {
+        bottom: -10px;
+        left: 428px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+  
+    .Work h2::after {
+      top: -40px;
+      height: 800px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 900px;
+    }
+
+    footer {
+        width: 138%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .horiseon p {
+        bottom: 110px;
+        left: 428px;
+    }  
+ }
+
+ @media (max-width: 768px) {
+    header {
+      padding: 10px 20px;
+      width: 146%
+    }
+
+    .banner img {
+        width:151%;
+    }
+  
+    header h1 {
+      font-size: 45px;
+      padding-left: 30px;
+    }
+  
+    .avatar {
+      top: 20%;
+      left: 168px;
+      width: 60px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon p {
+        bottom: -285px;
+        left: 250px;
+    }
+
+    section h2 {
+        margin-left: 40px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+  
+    .Work h2::after {
+      top: -40px;
+      height: 800px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 900px;
+    }
+
+    footer {
+        width: 151%;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
+    .horiseon p {
+        bottom: -150px;
+        left: 216px;
+    }  
+ }
+
+ @media (max-width: 576px) {
+    header {
+      padding: 10px 20px;
+      width: 128%
+    }
+
+    .banner img {
+        width:135%;
+    }
+  
+    header h1 {
+      font-size: 15px;
+      padding-left: 5px;
+    }
+
+    header div {
+        font-size: 10px;
+    }
+  
+    .avatar {
+      top: 13%;
+      left: 16px;
+      width: 45px;
+    }
+
+    .About-Me h2 {
+        position: relative;
+        padding-left: 5px;
+        font-size: 25px;
+    }
+
+    .Me {
+        margin-left: 35px;
+    }
+
+    aside p {
+        font-size: 10px;
+    }
+
+    .pictures {
+        width: 535px;
+    }
+
+    .horiseon img {
+        height: 395px;
+        width: 660px;
+    }
+
+    .horiseon p {
+        bottom: -102px;
+        left: 106px;
+    }
+  
+    aside h2 {
+      font-size: 35px;
+      margin-left: 120px;
+    }
+
+    .Work h2 {
+        padding-left: 5px;
+    }
+
+    .Work h2::after {
+      top: 35px;
+      height: 688px;
+    }
+  
+    .Contact h2::after {
+      top: -10px;
+      height: 120px;
+    }
+
+    .picture-grid {
+        width: 660px;
+    }
+
+    section h2{
+        font-size: 25px;
+    }
+
+    footer {
+        width: 135%;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+    .horiseon p {
+        bottom: -10px;
+        left: 105px;
+    }  
+ }
